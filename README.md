@@ -70,7 +70,7 @@ figure to `convergence.png`.
 
 | File | Description |
 |---|---|
-| `Pricing_GitHub_project.py` | Pricing functions, Black–Scholes check, and convergence study |
+| `Monte_Carlo_Pricing_GitHub_project.py` | Pricing functions, Black–Scholes check, and convergence study |
 | `requirements.txt` | Python dependencies |
 | `convergence.png` | Generated convergence figure |
 
