@@ -24,7 +24,7 @@ Under *Q*, the underlying follows a geometric Brownian motion whose terminal val
 has a **closed-form solution** — so for a European payoff (which depends only on the
 terminal price) no path simulation is needed, a single draw per trajectory suffices:
 
-$$S_T = S_0 \exp\!\Big(\big(r - \tfrac{1}{2}\sigma^2\big)T + \sigma\sqrt{T}\,Z\Big),
+$$S_T = S_0 \exp\\Big(\big(r - \tfrac{1}{2}\sigma^2\big)T + \sigma\sqrt{T}\,Z\Big),
 \qquad Z \sim \mathcal{N}(0,1)$$
 
 **Monte Carlo estimate and error.** The price is the mean of the discounted payoffs
