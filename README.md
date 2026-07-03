@@ -60,7 +60,7 @@ fitted slope confirming the 1/√N rate.*
 
 ```bash
 pip install -r requirements.txt
-python Pricing_GitHub_project.py
+python Monte_Carlo_Pricing_GitHub_project.py
 ```
 
 This prints the Monte Carlo vs Black–Scholes sanity check and saves the convergence
