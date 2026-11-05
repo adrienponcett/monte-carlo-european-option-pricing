@@ -1,7 +1,7 @@
 # Monte Carlo Pricing of a European Call Option
 
 A Monte Carlo pricer for European call options, **validated against the closed-form
-Black–Scholes price** and used to measure the theoretical **1/√N convergence rate**
+Black-Scholes price** and used to measure the theoretical **1/√N convergence rate**
 of the Monte Carlo error empirically.
 
 ## Overview
@@ -11,7 +11,7 @@ The project does three things:
 1. Prices a European call by Monte Carlo simulation under the risk-neutral measure.
 2. Cross-checks the result against the closed-form Black-Scholes formula.
 3. Measures the convergence rate of the Monte Carlo error via a log–log regression,
-   recovering the expected exponent of −1/2.
+   recovering the expected exponent of -1/2.
 
 ## Theory in brief
 
