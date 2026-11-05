@@ -9,7 +9,7 @@ of the Monte Carlo error empirically.
 The project does three things:
 
 1. Prices a European call by Monte Carlo simulation under the risk-neutral measure.
-2. Cross-checks the result against the closed-form Black–Scholes formula.
+2. Cross-checks the result against the closed-form Black-Scholes formula.
 3. Measures the convergence rate of the Monte Carlo error via a log–log regression,
    recovering the expected exponent of −1/2.
 
@@ -70,7 +70,7 @@ figure to `convergence.png`.
 
 | File | Description |
 |---|---|
-| `Monte_Carlo_Pricing_GitHub_project.py` | Pricing functions, Black–Scholes check, and convergence study |
+| `Monte_Carlo_Pricing_GitHub_project.py` | Pricing functions, Black-Scholes check, and convergence study |
 | `requirements.txt` | Python dependencies |
 | `convergence.png` | Generated convergence figure |
 
